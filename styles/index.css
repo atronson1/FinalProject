@@ -1,6 +1,7 @@
 body{
     background-color: lavenderblush;
     margin: 150px;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a:visited {
@@ -30,6 +31,28 @@ h1{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-img{
-    width: 300px;
+h2 {
+    text-align: center;
 }
+.bucket {
+    position: relative;
+    text-align: center;
+}
+.bucketText {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 10%;
+    padding-right: 10%;
+    color: black;
+    border-left: rgb(255, 255, 255, 0.7) 100px;
+    border-right: rgb(255, 255, 255, 0.7) 100px;
+    background: rgb(255, 255, 255, 0.7);
+}
+.bucketPic {
+    width: 600px;
+    padding: 5px;
+
+}
+

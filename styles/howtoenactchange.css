@@ -36,3 +36,9 @@ img {
 a {
     text-decoration: none;
 }
+.contactList {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    margin: 2px;
+}

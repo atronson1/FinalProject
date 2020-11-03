@@ -1,6 +1,7 @@
 body{
     background-color: lavenderblush;
     margin: 150px;
+    text-emphasis: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a:visited {
@@ -10,6 +11,17 @@ a:visited {
 a:link {
     color:black;
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+#img1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    display: block;
 }
 
 h1{
@@ -32,4 +44,9 @@ h1{
 }
 img{
     height: 200px;
+}
+.contactUs {
+    margin-left: auto;
+    margin-right: auto;
+
 }
