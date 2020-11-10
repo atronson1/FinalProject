@@ -44,4 +44,11 @@ img{
 }
 #youtube1 {
     position: relative;
+    float: right;
+    padding-left: 10px;
+}
+#youtube2 {
+    float: right;
+    position: relative;
+    padding-left: 10px;
 }
