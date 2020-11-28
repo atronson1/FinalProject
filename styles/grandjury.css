@@ -42,10 +42,6 @@ img{
 .dc {
     border: lavenderblush 10px solid;
 }
-iframe {
-    border: lavenderblush 10px solid;
-    float: center;
-}
 .quotes {
     border: lightgrey 2px solid;
     padding: 5px;
@@ -53,4 +49,23 @@ iframe {
     font-style: italic;
     margin: auto;
     width: 85%;
+}
+.yt3{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.yt45 {
+    display: block;
+    margin: 0 auto;
+    border: lavenderblush 10px solid;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.space{
+    padding: 10px;
 }
